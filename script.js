@@ -42,12 +42,12 @@ function changeGold(){
 
 function getName() {
     let showName = document.getElementById('name').value;
-    document.getElementById("inputN").innerHTML = "Names" + showName;
+    document.getElementById("inputN").innerHTML = "" + showName;
 }
 
 function getDate() {
     let showDate = document.getElementById('date').value;
-    document.getElementById("inputD").innerHTML = "Date" + showDate;
+    document.getElementById("inputD").innerHTML = "" + showDate;
 }
 
 
