@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Wedding Invitation Designer</title>
+</head>
+<body>
+    <h1>Wedding Invitation Designer</h1>
+    <hr>
+    <div class="wrapper">
+        <section class="grid">
+            <div class="left-col">
+            <h2>Select a style</h2>
+            <nav class="btnGroup">
+                <button class="btn" onclick="style1()">Neutral</button>
+                <button class="btn" onclick="style2()">Floral</button>
+                <button class="btn" onclick="style3()">Vibrant</button>
+            </nav>
+            <hr>
+            
+            <br>
+                <div class="form" id="form">
+                    <p>Names</p>
+                    <input type="text" placeholder="The couple" id="name" name="engaged" onkeyup="getName()">
+                    <p>Date</p>
+                    <input type="text" placeholder="When will it happen?" id="date" name="date" onkeyup="getDate()">
+                    <p>Location</p>
+                    <input type="text" placeholder="Where will it happen?" id="location" name="location" onkeyup="getLocation()">
+                </div>
+            </div>
+            
+            <div class="right-col" id="right-col">  
+                <div class="img-wrap">
+                    <img id="bgImage" src="images/neutral-minimal.jpg" alt="Neutral Leaves and pastel tones">
+                </div>
+                    <div class="imgtext" id="imgtext"> 
+                        <p id="pstyle1">You are invited to join</p>
+                        <span id="inputN"></span>
+                        <p id="pstyle2">to celebrate their marriage</p>
+                        <span id="inputD"></span>
+                        <p id="pstyle3">at</p>
+                        <span id="inputL"></span>
+                    </div>
+                    <div>
+                        
+                        <button class="btn" type="button" onclick="changeWhite()">white</button>
+                        <button class="btn" type="button" onclick="changeBlack()">black</button>
+                        <button class="btn" type="button" onclick="changeGreen()">green</button>
+                        <button class="btn" type="button" onclick="changeGold()">gold</button>
+                        
+                    </Div>
+                </div>
+            </div> 
+        </section>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <footer>
+        <h3>Kurt Buchholz ~ Copyright &copy; 2022</h3>
+    </footer>
+</body>
+</html>
