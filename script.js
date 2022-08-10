@@ -6,7 +6,7 @@ WebFont.load({
 
 function style1(){
     document.getElementById('bgImage')
-    .src="images/neutral-minimal.jpg";
+    .src="/images/neutral-minimal.jpg";
     document.getElementById('imgtext').style.fontFamily = 'Tangerine', cursive
     
 }
