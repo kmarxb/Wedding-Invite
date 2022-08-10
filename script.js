@@ -6,19 +6,19 @@ WebFont.load({
 
 function style1(){
     document.getElementById('bgImage')
-    .src="/images/neutral-minimal.jpg";
+    .src="./images/neutral-minimal.jpg";
     document.getElementById('imgtext').style.fontFamily = 'Tangerine', cursive
     
 }
 function style2(){
     document.getElementById('bgImage')
-    .src="/images/purple-flowers.jpg";
+    .src="./images/purple-flowers.jpg";
     document.getElementById('imgtext').style.fontFamily = 'Sacramento', cursive
 }   
 
 function style3(){
     document.getElementById('bgImage')
-    .src="/images/colourful.jpg";
+    .src="./images/colourful.jpg";
     document.getElementById('imgtext').style.fontFamily = 'Petit Formal Script', cursive
 }
 
